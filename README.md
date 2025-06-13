@@ -7,3 +7,5 @@ K. Khosroshahi, P. Sehier and S. Mekki, "Doppler Ambiguity Elimination Using 5G 
 Available: https://ieeexplore.ieee.org/document/10757748
 
 The main file is VTC2024. The rest of the files are functions used in the main code.
+
+This work was done during my secondment at Nokia Standards, France.
