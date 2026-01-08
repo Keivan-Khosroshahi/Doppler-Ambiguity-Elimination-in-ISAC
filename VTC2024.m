@@ -40,8 +40,6 @@ NRxAnt_z = 4;
 NTxAnts = NTxAnt_x *NTxAnt_z;       % Number of PDSCH transmission antennas (1,2,4,8,16,32,64,128,256,512,1024) >= NumLayers
 NRxAnts = NRxAnt_x * NRxAnt_z; % Number of UE receive antennas (1 or even number >= NumLayers)
 
-UEantennaPos = antennapos(NRxAnts,UEPos,lambda);
-BSantennaPos = antennapos(NTxAnts,gNBPos,lambda);
 
 DataType = 'single';    % Define data type ('single' or 'double') for resource grids and waveforms
 SNRIn = [0]; % SNR range (dB)
@@ -1079,6 +1077,7 @@ axis tight;
 % 
 % % Add legend
 % legend('show');
+
 
 
 
